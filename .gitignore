@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+day009/books.json
+day009/tasks.json
+tasks.json
+probe_tasks.json
+test_tasks.json
