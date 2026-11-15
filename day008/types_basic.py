@@ -1,5 +1,4 @@
-def add(a: int,b: int) -> int:
-    return a + b
-print(add(2, 3))
-print(add("hello", "world")) 
-print(type(add("hello", "world")))
+def print_names(names: list[str]) -> None:
+    for name in names:
+        print(name)
+print_name(["Alice", "Bob"])

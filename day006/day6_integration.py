@@ -27,7 +27,8 @@ class TaskManager:
         try:
             with open(filename, "r") as f:
                 data = json.load(f)
-        except (FileNotFoundError,json.JSONDecodeError):
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            print(e)
             return []
         self.tasks = []
         for item in data:
